@@ -1,0 +1,21 @@
+﻿v1.1
+
+-Added !events command
+-Added EventReminder funcionality. Activate it by setting up a channel and using the !AdminSetEventReminderChannel <ChannelName> command. You can remove it by using !AdminDisableEventReminders
+-Added !cl as a shortcut for !cardlarge
+-Added the ability to disable shards or hex commands seperatly. Use !ShowShards or !ShowHex with 0, 1, true or false as parameter to activate/deactivate shards or hex commands.
+-When a search fails the response now includes the searchstring
+
+
+System.NullReferenceException
+  HResult=0x80004003
+  Nachricht = Object reference not set to an instance of an object.
+  Quelle = CardBot
+  Stapelüberwachung:
+   at CardBot.Program.<CheckForUpdates>d__9.MoveNext() in C:\Users\Tom\source\repos\DiscordBotSolution\CardBot\Program.cs:line 85
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CardBot.Program.<MainAsync>d__7.MoveNext() in C:\Users\Tom\source\repos\DiscordBotSolution\CardBot\Program.cs:line 64
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CardBot.Program.Main(String[] args) in C:\Users\Tom\source\repos\DiscordBotSolution\CardBot\Program.cs:line 26
